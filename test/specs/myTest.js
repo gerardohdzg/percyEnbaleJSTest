@@ -51,7 +51,7 @@ describe('Editor tests', ()=>{
         // await percySnapshot(browser, 'One');
     });
 
-    it('should capture the manu items', async()=>{
+    it('should capture the menu items', async()=>{
         await browser.url('https://placeit.net/');
         await browser.pause(2000);
         await $('//a[@data-slug="mockups"]').waitForDisplayed();
